@@ -1,6 +1,6 @@
 export default function Hero(){
   return(
-    <div className="flex justify-between px-8 py-8 mx-auto">
+    <div className="flex justify-between p-10 mx-auto">
     
     <div className="flex flex-col justify-between">
       <h1 className="text-5xl font-bold ">Welcome To My Personal Portfolio Website </h1>
