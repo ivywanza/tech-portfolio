@@ -30,7 +30,7 @@ export default function About() {
       </div>
     <div className="flex gap-60 py-5">
         <button className= "bg-blue-500 w-1/2 py-3 rounded-3xl text-white text-2xl">View My Projects</button>
-        <button className="bg-orange-600 w-1/2 py-3 rounded-3xl text-white text-2xl">Download CV</button>
+        <button className="bg-orange-600 w-1/2 py-3 rounded-3xl text-white text-2xl~!">Download CV</button>
         
     </div>
 
