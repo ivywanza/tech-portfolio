@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <div className="p-10 bg-blue-100">
+    <div className="p-10 bg-blue-100" id="about">
       <h2 className="font-bold text-6l py-10 text-2xl">ABOUT ME ...</h2>
     <div className="space-y-5">
       <p>
@@ -29,12 +29,19 @@ export default function About() {
       </p>
       </div>
     <div className="flex flex-col gap-3 sm:flex-row sm:gap-4 py-10">
-  <button className="w-full sm:flex-1 bg-blue-500 px-4 py-3 rounded-3xl text-white text-base sm:text-lg md:text-xl font-bold whitespace-nowrap">
-    View My Projects
-  </button>
-  <button className="w-full sm:flex-1 bg-orange-600 px-4 py-3 rounded-3xl text-white text-base sm:text-lg md:text-xl font-bold whitespace-nowrap">
-    Download CV
-  </button>
+  <button
+  className="w-full sm:flex-1 bg-blue-500 px-4 py-3 rounded-3xl text-white text-base sm:text-lg md:text-xl font-bold whitespace-nowrap"
+  onClick={() => document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })}
+>
+  View My Projects
+</button>
+  <a
+  href="/Ivy_Maundu_Resume.docx"
+  download="Ivy_Maundu_CV.docx"
+  className="w-full sm:flex-1 bg-orange-600 px-4 py-3 rounded-3xl text-white text-base sm:text-lg md:text-xl font-bold whitespace-nowrap text-center inline-flex items-center justify-center"
+>
+  Download CV
+</a>
 </div>
 
     </div>

@@ -10,7 +10,7 @@ export default function Hero() {
         <p className="text-sm sm:text-base">
           Economics & Statistics | Software Development | Business Analyst
         </p>
-        <button className="mt-2 bg-orange-600 w-full sm:w-auto px-8 py-3 text-lg sm:text-xl md:text-2xl text-white font-semibold font-serif rounded-2xl">
+        <button className="mt-2 bg-orange-600 w-full sm:w-auto px-8 py-3 text-lg sm:text-xl md:text-2xl text-white font-semibold font-serif rounded-2xl" onClick={() => document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' }) }>
           View Recent Projects
         </button>
       </div>

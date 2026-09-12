@@ -42,7 +42,7 @@ export default function Project() {
 ]
 
   return (
-    <div className="px-10 py-10">
+    <div className="px-10 py-10" id="projects">
       <div className="text-center space-y-4">
         <h3 className="text-3xl font-bold">My Projects</h3>
         <p className="mt-2 tex dark:text-gray-400 text-2xl font-serif">What I've been working on ...</p>
