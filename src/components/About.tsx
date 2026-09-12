@@ -28,11 +28,14 @@ export default function About() {
         solving real-world business problems and creating measurable value.
       </p>
       </div>
-    <div className="flex gap-60 py-5">
-        <button className= "bg-blue-500 w-1/2 py-3 rounded-3xl text-white text-2xl">View My Projects</button>
-        <button className="bg-orange-600 w-1/2 py-3 rounded-3xl text-white text-2xl~!">Download CV</button>
-        
-    </div>
+    <div className="flex flex-col gap-3 sm:flex-row sm:gap-4 py-10">
+  <button className="w-full sm:flex-1 bg-blue-500 px-4 py-3 rounded-3xl text-white text-base sm:text-lg md:text-xl font-bold whitespace-nowrap">
+    View My Projects
+  </button>
+  <button className="w-full sm:flex-1 bg-orange-600 px-4 py-3 rounded-3xl text-white text-base sm:text-lg md:text-xl font-bold whitespace-nowrap">
+    Download CV
+  </button>
+</div>
 
     </div>
   );

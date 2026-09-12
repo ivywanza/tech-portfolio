@@ -11,7 +11,7 @@ export default function Contact() {
         <div className="flex flex-col gap-2">
           <label
             htmlFor="name"
-            className="text-sm font-medium text-gray-700 dark:text-gray-300"
+            className="text-sm font-bold text-gray-700 dark:text-gray-300"
           >
             Name
           </label>
@@ -27,7 +27,7 @@ export default function Contact() {
         <div className="flex flex-col gap-2">
           <label
             htmlFor="email"
-            className="text-sm font-medium text-gray-700 dark:text-gray-300"
+            className="text-sm font-bold text-gray-700 dark:text-gray-300"
           >
             Email
           </label>
@@ -43,7 +43,7 @@ export default function Contact() {
         <div className="flex flex-col gap-2">
           <label
             htmlFor="message"
-            className="text-sm font-medium text-gray-700 dark:text-gray-300"
+            className="text-sm font-bold text-gray-700 dark:text-gray-300"
           >
             Message
           </label>
