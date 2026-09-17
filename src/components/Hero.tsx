@@ -17,7 +17,7 @@ export default function Hero() {
 
       <div className="shrink-0">
         <img
-          src="/src/assets/hero.jpg"
+          src="/Ivy.webp"
           alt="Reliable quality of output"
           className="w-56 sm:w-72 md:w-96 rounded-2xl object-cover"
         />
