@@ -3,14 +3,14 @@ export default function Project() {
   const projects = [
   {
     id: 1,
-    image: "/src/assets/cbc-timetable-generator.png",
+    image: "/cbc-timetable-generator.webp",
     name: "CBC Timetable Generator",
     description: "A custom-built system for generating class timetables under Kenya's CBC curriculum.",
     url: "https://timetable-generator2.onrender.com"
   },
   {
     id: 2,
-    image: "/src/assets/meet-me-here.png",
+    image: "/meet-me-here.webp",
     name: "SmartMatch Dating Platform",
     description: "An AI-powered dating web application that enables users to connect meaningfully through intelligent matching, real-time chat, and a sleek, user-friendly interface.",
     url:"https://dating-site-p7cx.onrender.com/"
